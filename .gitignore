@@ -1,0 +1,19 @@
+# Root & General
+.DS_Store
+*.log
+.env
+.env.local
+
+# Python / FastAPI Backend
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.venv/
+backend/.pytest_cache/
+backend/uploads/
+
+# React / Node Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
