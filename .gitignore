@@ -1,19 +1,45 @@
-# Root & General
+# ==========================================
+# Root & Operating System
+# ==========================================
 .DS_Store
+Thumbs.db
 *.log
 .env
 .env.local
+.env.*.local
 
-# Python / FastAPI Backend
-backend/__pycache__/
-backend/*.pyc
+# ==========================================
+# Python & FastAPI Backend
+# ==========================================
+__pycache__/
+*.py[cod]
 backend/venv/
 backend/.venv/
 backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
 backend/uploads/
+backend/untungku.db
+backend/alembic.ini
 
-# React / Node Frontend
+# ==========================================
+# Node & React Frontend
+# ==========================================
 frontend/node_modules/
 frontend/dist/
 frontend/build/
 frontend/.vite/
+frontend/.nx/
+frontend/coverage/
+
+# ==========================================
+# IDE & Code Editors
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
